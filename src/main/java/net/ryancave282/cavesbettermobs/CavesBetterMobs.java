@@ -1,5 +1,6 @@
 package net.ryancave282.cavesbettermobs;
 
+import net.minecraft.resources.ResourceLocation;
 import net.ryancave282.cavesbettermobs.entity.ModEntities;
 import org.slf4j.Logger;
 
@@ -40,6 +41,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class CavesBetterMobs {
     public static final String MODID = "cavesbettermobs";
     private static final Logger LOGGER = LogUtils.getLogger();
+
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
